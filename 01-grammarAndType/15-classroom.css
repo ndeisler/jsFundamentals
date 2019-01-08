@@ -1,0 +1,33 @@
+#wrapper h1 {
+    color: darkgreen;
+    text-align: center;
+}
+
+#wrapper h3 {
+    color: blue;
+}
+
+#wrapper p {
+    color: rgb(128, 5, 5);
+
+}
+#wrapper {
+    border: 5px solid black;
+    border-radius: 1em;
+    background-color: grey;
+
+}
+.truth {
+    border: 2px solid darkgreen;
+    border-radius: 1em;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 10px;
+    width: 30%;
+    float: left;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    
+}
