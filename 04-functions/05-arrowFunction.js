@@ -58,3 +58,61 @@ var unCapString = (str) => {
 }
 
 console.log(unCapString(capString(string)));
+
+
+
+
+
+//Write a function that checks to sees if all characters in a sting are unique.
+/*
+Tools:
+fucntion with a parameter
+for loops
+conditional
+split method?
+*/
+
+let x = "string";
+let y = "racecar";
+
+let check = (checking) => {
+    let broken = checking.split("");
+    for (item in broken) {
+        for (item2 in broken) {
+            if (broken[item] === broken[item2] && item !== item2) {
+                console.log("Not Unique");
+               
+            }
+        }
+    
+        // console.log(item);
+    }
+    console.log(checking);
+}
+check(y);
+
+//Challenger
+//Check and see if a sting is unique
+
+var string = "abcdefghijklmnopqrstuvwxyz"
+
+function uniqueString(str) {
+    var tOfF = true;
+    for (var i = 0; i < str.length; i++) {
+        for (var x = 0; x < str.length;  x++) {
+            if (str[i] === str[x] && i !== x) {
+                tOfF = false;
+            }
+        }
+    }
+    if (tOfF) {
+        console.log("Unique");
+    } else {
+        console.log("!unique");
+    }
+
+
+
+    console.log(str);
+}
+uniqueString(string);
