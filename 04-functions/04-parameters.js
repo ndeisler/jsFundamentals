@@ -15,9 +15,11 @@ pet(dog);
 
 var fName = "Nate";
 var lName = "Deisler";
+
 function name(firstName, lastName) {
     var fullName = firstName + " " + lastName;
     console.log(fullName);
     return fullName;
 }
+
 name(fName, lName);

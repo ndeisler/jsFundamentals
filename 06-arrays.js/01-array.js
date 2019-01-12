@@ -15,6 +15,8 @@ Has values ('blue', 'green', 'yellow'), separated with commas
 */
 
 
+
+
 let list = ["oragne", true, 28];
 
 console.log(list[1]);
@@ -30,6 +32,23 @@ console.log(students[5][1]);
 //challenge  go into the nested array and get "amira" print out "hellow amria, you look nice today"
 var name = students[5][2];
 console.log(`Hello ${name}, you look nice today`);
+
+
+
+let num = [1, 4, 6, 5, 3];
+let evenNum = [];
+let oddNum = [];
+
+for (let i = 0; i < num.length; i++) {
+    if (i % 2 === 0) {
+        evenNum.push(num[i]);
+    }
+    else if ((i - 1) % 2 === 0) {
+        oddNum.push(num[i]);
+    }
+    
+}
+console.log(evenNum, oddNum, num);
 
 
 

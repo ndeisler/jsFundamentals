@@ -39,3 +39,22 @@ for (var i = 0; i < numbers.length; i++) {
     x += "* "
     console.log(x);
 }
+
+let arr = [5, 2, 7, 4, 8, 23, 1003, 0, 15, 5];
+
+arr.forEach(i => {
+    if (i % 3 === 0 && i % 5 === 0) {
+
+        console.log(i = "fizzbuzz");
+
+    }
+    else if (i % 3 === 0) {
+        console.log(i ="fizz");
+    }
+    else if (i % 5 === 0) {
+        console.log(i = "buzz");
+    } else {
+        console.log(i);
+    }
+})
+

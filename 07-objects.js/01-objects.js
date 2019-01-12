@@ -120,6 +120,11 @@ let garden = {
     size: 10
 };
 
+var veg = garden["vegetable"];
+var fl = garden.flower;
+console.log(veg);
+console.log(fl);
+
 let x = "water";
 Object.keys(garden).forEach(i => {
     if (i === x) {
